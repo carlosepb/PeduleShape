@@ -1,4 +1,4 @@
-//import gifAnimation.*;
+PShader shader1;
 boolean up, down, left, right, space;
 float moveX, moveY;
 PImage ballTexture, woodTexture;
@@ -8,7 +8,7 @@ float[] moveRand;
 boolean side;
 float a = 0;
 int cam=0, col=3;
-//GifMaker fileGIF;
+boolean shaderOff;
 
 void setup()
 { 
@@ -44,8 +44,7 @@ void setup()
   stickZ.setTexture(woodTexture);
   endShape();
   
-  //fileGIF= new GifMaker(this,"animation.gif");
-  //fileGIF.setRepeat(0);
+  shader1 = loadShader("dibuja7.glsl");
 }
 
 void draw(){
@@ -121,7 +120,8 @@ void draw(){
    ambientLight(0, 255, 0) ;
    break;
    case 2:
-   ambientLight(0, 0, 255) ;
+   //ambientLight(0, 0, 255) ;
+   setLight();
    break;
    case 3:
    lights();
@@ -181,7 +181,6 @@ void draw(){
   popMatrix();
   
    moveBall();
-   //fileGIF.addFrame();
 }
 
 void keyPressed()
@@ -239,9 +238,6 @@ void keyReleased()
     moveX=0;
     a=0;
   }
-  /*if(key == 'g' || key == 'G'){
-    fileGIF.finish();
-  }*/
 }
 
 
@@ -285,4 +281,10 @@ void moveBall()
       moveIzq+=inc;
     }
   } 
+}
+
+void setLight() {
+  shader(shader1);
+  shader1.set("u_resolution", float(width), float(height));
+  shader1.set("u_time", float(millis())/float(1000)); 
 }
