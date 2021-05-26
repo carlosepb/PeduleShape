@@ -1,9 +1,9 @@
-# PenduleNewton
-Péndulo de Newton en 3D.
+# PenduleShape
+Péndulo de Newton en 3D con Shapes.
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Péndulo de Newton</h3>
+  <h3 align="center">Péndulo de Newton con Shapes</h3>
 
   <p align="center">
     ¡Péndulo de Newton en 3D!
