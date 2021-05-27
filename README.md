@@ -118,7 +118,7 @@ Para modificar la aplicación y ejecutar necesitará instalar el entorno de desa
 2. Proyecto.
     * Descomprimir rar.
     * Ejecutar Processin3.
-    * Deberemos poner la Processin3 en modo SHAPE
+    * Deberemos poner Processin3 en modo SHAPE
     * Archivo->Abrir...
    
 
