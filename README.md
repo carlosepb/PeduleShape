@@ -67,6 +67,11 @@ Como se explicó en el primer párrafo utilizando la tecla espacio podemos activ
 En la imagen inferior podemos ver la ejecución del programa en un GIF que nos permite ver los cuatro estados de luz, además de una rotación y un reinicio del estado.(imagen_4.0)
 </p>
 <p align="center"><img src="images/animation.gif" alt="ejecución" width="600" height="425"></br>imagen_4.0</p>
+<p align="justify">
+El efecto del shape podemos verlo en la imagen inferior.(imagen_5.0)
+</p>
+<p align="center"><img src="images/capruta3.JPG" alt="shape" width="600" height="425"></br>imagen_4.0</p>
+
 
 ## Trabajo Realizado
 <p align="justify">
@@ -83,6 +88,11 @@ Para crear la figura se han usado los elementos 3D box y sphere para la estructu
 </p>
 <p align="justify">
 En caso de querer utilizar la función de crear GIF se deben descomentar las líneas 11, 47, 48, 184 y 242-244. Estas se encuentran comentadas para mejorar la eficiencia de la ejecución.
+</p>
+</p>
+<p align="justify">
+Como trabajo extra para la practica de shapes se ha añadido un nuevo efecto de luz el cual será cargado a partir de un fichero shape tomado desde el repositorio de ejemplos proporcionado por el profesor.
+Este efecto altera la visión de los elementos añadiendo múltiples colores y efectos de luces.
 </p>
 
 ## Herramientas de Desarrollo
