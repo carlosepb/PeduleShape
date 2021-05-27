@@ -8,14 +8,14 @@ Péndulo de Newton en 3D con Shapes.
   <p align="center">
     ¡Péndulo de Newton en 3D!
     <br />
-      <a href="https://github.com/carlosepb/PenduleNewton"><strong>Explorar repositorio»</strong></a>
+      <a href="https://github.com/carlosepb/PeduleShape"><strong>Explorar repositorio»</strong></a>
     <br />
     <br />
-      <a href="https://github.com/carlosepb/PenduleNewton/blob/main/images/animation.gif">Ver Demo</a>
+      <a href="https://github.com/carlosepb/PeduleShape/blob/main/images/animation.gif">Ver Demo</a>
       ·
-      <a href="https://github.com/carlosepb/PenduleNewton/issues">Reportar Error</a>
+      <a href="https://github.com/carlosepb/PeduleShape/issues">Reportar Error</a>
       ·
-      <a href="https://github.com/carlosepb/PenduleNewton/issues">Solicitar Colaboración</a>
+      <a href="https://github.com/carlosepb/PeduleShape/issues">Solicitar Colaboración</a>
     </p>
   </p>
 
@@ -70,7 +70,7 @@ En la imagen inferior podemos ver la ejecución del programa en un GIF que nos p
 <p align="justify">
 El efecto del shape podemos verlo en la imagen inferior.(imagen_5.0)
 </p>
-<p align="center"><img src="images/capruta3.JPG" alt="shape" width="600" height="425"></br>imagen_4.0</p>
+<p align="center"><img src="images/captura3.JPG" alt="shape" width="600" height="425"></br>imagen_4.0</p>
 
 
 ## Trabajo Realizado
@@ -103,7 +103,7 @@ Este efecto altera la visión de los elementos añadiendo múltiples colores y e
 ## Empezando
 
 <p align="justify">
-Para modificar la aplicación necesitará instalar el entorno de desarrollo Processing3. En caso de que solo quiera ejecutar la versión release no será necesario que instale nada y puede pasar directamente al paso Ejecutar->Release.
+Para modificar la aplicación y ejecutar necesitará instalar el entorno de desarrollo Processing3.
 </p>
 
 ### Prerrequisitos
@@ -115,14 +115,12 @@ Para modificar la aplicación necesitará instalar el entorno de desarrollo Proc
    
 ### Ejecutar
 
-1. Release.
-    * Descomprimir rar.
-    * Entrar a la versión correspondiente a nuestro windows.
-    * Lanzar Practica5.exe
 2. Proyecto.
     * Descomprimir rar.
     * Ejecutar Processin3.
+    * Deberemos poner la Processin3 en modo SHAPE
     * Archivo->Abrir...
+   
 
 <!-- ROADMAP -->
 ## Hoja de Ruta
@@ -141,7 +139,7 @@ Autor: Carlos Eduardo Pacichana Bastidas
 
 Email: carlos.eduardo.pacichana@gmail.com  carlos.pacichana101@alu.ulpgc.es
 
-Enlace al proyecto: [https://github.com/carlosepb/PenduleNewton](https://github.com/carlosepb/PenduleNewton)
+Enlace al proyecto: [https://github.com/carlosepb/PeduleShape](https://github.com/carlosepb/PeduleShape)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Agradecimientos
@@ -150,3 +148,4 @@ Enlace al proyecto: [https://github.com/carlosepb/PenduleNewton](https://github.
 * [Funprogramming](https://funprogramming.org/)
 * [Text](https://processing.org/reference/text_.html)
 * [Texturas](https://www.pexels.com/es-es/)
+* [Shape](https://github.com/otsedom/CIU/blob/master/P9/p9_shader_dibuja/Dibuja7.glsl)
